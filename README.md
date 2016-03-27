@@ -1,2 +1,2 @@
 # ARDirectX
-ARToolkit + DirectX + Windows + VisualStudio 2013 C++
+ARToolkit + OpenCV + DirectX + VisualStudio 2013 C++
