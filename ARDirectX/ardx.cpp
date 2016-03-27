@@ -189,7 +189,8 @@ void cViewer::OnRender(const float elapseT)
 
 //		m_renderer.RenderGrid();
 //		m_renderer.RenderAxis();
-		m_qrmap.Render(m_renderer);
+		if (!m_skipCamera)
+			m_qrmap.Render(m_renderer);
 
 		m_renderer.RenderFPS();
 
