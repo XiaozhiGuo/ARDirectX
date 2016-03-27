@@ -48,7 +48,7 @@ cViewer::cViewer()
 	: m_model(0)
 	, m_line(4)
 {
-	m_windowName = L"ARToolkit Test";
+	m_windowName = L"ARToolkit With DirectX Test";
 	const RECT r = { 0, 0, 640, 480 };
 	m_windowRect = r;
 
